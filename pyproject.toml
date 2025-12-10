@@ -1,0 +1,9 @@
+[project]
+name = "koromi"
+version = "0.1.0"
+description = "Text-To-Speech App for your articles and newsletter using the Kokoro 82M TTS Model"
+readme = "README.md"
+requires-python = ">=3.13.11"
+dependencies = [
+    "reflex>=0.8.22",
+]
