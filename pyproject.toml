@@ -5,7 +5,13 @@ description = "Text-To-Speech App for your articles and newsletter using the Kok
 readme = "README.md"
 requires-python = ">=3.13.11"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "kokoro>=0.9.4",
+    "nltk>=3.9.2",
+    "numpy>=2.3.5",
     "reflex>=0.8.22",
+    "requests>=2.32.5",
+    "soundfile>=0.13.1",
 ]
 
 [tool.ruff]
